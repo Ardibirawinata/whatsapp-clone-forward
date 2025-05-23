@@ -50,7 +50,7 @@ A robust WhatsApp bot that automatically forwards all incoming messages to a spe
 Edit the `FORWARD_TO_NUMBER` in `index.js` to your target WhatsApp number:
 
 ```javascript
-const FORWARD_TO_NUMBER = '628986600541'; // Replace with your number (international format without +)
+const FORWARD_TO_NUMBER = '628xxxxxxx'; // Replace with your number (international format without +)
 ```
 
 ## 🚀 Usage
