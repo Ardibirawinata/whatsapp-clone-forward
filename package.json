@@ -1,0 +1,43 @@
+{
+  "name": "whatsapp-message-forwarder",
+  "version": "1.0.0",
+  "description": "A robust WhatsApp bot that automatically forwards all incoming messages to a specified number",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop waclone",
+    "pm2:restart": "pm2 restart waclone",
+    "pm2:logs": "pm2 logs waclone",
+    "pm2:status": "pm2 status"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "message-forwarder",
+    "automation",
+    "whatsapp-web",
+    "pm2",
+    "server"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "fs-extra": "^11.3.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.28.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/whatsapp-message-forwarder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/whatsapp-message-forwarder/issues"
+  },
+  "homepage": "https://github.com/yourusername/whatsapp-message-forwarder#readme"
+}
