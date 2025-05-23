@@ -5,7 +5,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const os = require('os');
 
-const FORWARD_TO_NUMBER = '628986600541';
+const FORWARD_TO_NUMBER = 'YOUR_NUMBER';
 
 const AUTH_DIR = '.auth_whatsapp';
 const SESSION_DIR = path.join(process.cwd(), AUTH_DIR);
